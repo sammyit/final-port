@@ -408,22 +408,21 @@ footer {
     margin-bottom: 6px;
 }
 
-.tech-used {
+.project-tech {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 8px;
-    margin-top: 16px;
+    margin: 14px 0 16px;
 }
 
-.tech-used h5 {
+.project-tech strong {
     width: 100%;
-    margin: 0 0 2px;
     color: #eef4ff;
     font-size: 0.95rem;
 }
 
-.tech-used span {
+.project-tech span {
     display: inline-flex;
     align-items: center;
     min-height: 30px;
