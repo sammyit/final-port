@@ -408,6 +408,34 @@ footer {
     margin-bottom: 6px;
 }
 
+.tech-used {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.tech-used h5 {
+    width: 100%;
+    margin: 0 0 2px;
+    color: #eef4ff;
+    font-size: 0.95rem;
+}
+
+.tech-used span {
+    display: inline-flex;
+    align-items: center;
+    min-height: 30px;
+    padding: 6px 11px;
+    color: #dffcf8;
+    background: rgba(20, 184, 166, 0.12);
+    border: 1px solid rgba(94, 234, 212, 0.24);
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
 .contact-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
